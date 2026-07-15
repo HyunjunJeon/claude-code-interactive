@@ -1,0 +1,31 @@
+{
+  "name": "claude-code-interactive",
+  "version": "0.1.0",
+  "description": "Control local Claude Code interactive CLI sessions from Codex.",
+  "author": {
+    "name": "HyunjunJeon",
+    "url": "https://github.com/HyunjunJeon"
+  },
+  "homepage": "https://github.com/HyunjunJeon/claude-code-interactive",
+  "repository": "https://github.com/HyunjunJeon/claude-code-interactive",
+  "license": "MIT",
+  "keywords": ["codex", "claude-code", "cli", "tmux", "agent"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Claude Code Interactive",
+    "shortDescription": "Drive Claude Code CLI sessions from Codex.",
+    "longDescription": "Starts Claude Code in an isolated tmux PTY and lets Codex send prompts, press approval keys, read the screen, and stop sessions.",
+    "developerName": "HyunjunJeon",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Start Claude Code in this project and ask it to review the current changes.",
+      "Open a Claude Code plan session for this task.",
+      "Show the latest output from my Claude Code session."
+    ]
+  }
+}
